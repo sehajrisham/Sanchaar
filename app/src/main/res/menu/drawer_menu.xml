@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<group android:checkableBehavior="single">
+
+    <item android:id="@+id/home_id"
+        android:title="Home"
+        android:icon="@drawable/homehome"></item>
+    <item android:id="@+id/id_notify"
+        android:title="Notifications"
+        android:icon="@drawable/notification"></item>
+    <item android:id="@+id/id_drug"
+        android:title="Drug Detail(EDL)"
+        android:icon="@drawable/medicine"></item>
+    <item android:id="@+id/id_institute"
+        android:title="Institute Detail"
+        android:icon="@drawable/ins"></item>
+    <item android:id="@+id/id_non_performing_institute"
+        android:title="Institutes Not Performing"
+        android:icon="@drawable/non"></item>
+    <item android:id="@+id/id_drugs_to_be_expired"
+        android:title="Drugs to be Expired "
+        android:icon="@drawable/expire"></item>
+    <item android:id="@+id/id_user_detail"
+        android:title="Institute Directory "
+        android:icon="@drawable/directory"></item>
+    <item android:id="@+id/id_logout"
+        android:title="Logout "
+        android:icon="@drawable/logout"></item>
+    </group>
+   <!-- <item android:title="Social">
+        <menu>
+
+            <item android:title="Add to group"
+                android:id="@+id/add_to_group"
+                android:icon="@drawable/ab"></item>
+            <item android:title="Group"
+                android:id="@+id/group"
+                android:icon="@drawable/ab"></item>
+            <item android:title="share"
+                android:id="@+id/share"
+                android:icon="@drawable/ab"></item>
+        </menu>
+    </item>-->
+</menu>
